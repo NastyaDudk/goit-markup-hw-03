@@ -6,7 +6,32 @@ body {
     
   }
 
+  .container{
+    width: 1158px;
+  }
+
+
+  .container-apps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
     /* Header */
+
+
+    .header-container{
+      border-bottom: 1px;
+      color: #E7E9FC;
+      width: 1440px;
+      height: 72px;
+      border: 1px;
+    }
+
+    .header-info{
+      display: flex;
+    }
+
   .header-link{
     color:#4d5ae5;
   }
@@ -16,31 +41,26 @@ body {
     font-weight: 500;
     font-size: 16px;
     color:#2E2F42;
-    display:flex;
-    gap: 50px;
+    display: flex;
     padding-left: 347px;
+    gap: 40px;
+    padding-top: 24px;
+    
   }
-
-
-
-  .top-container{
-    padding-left: 156px;
-    padding-top: 50px;
-    height: 24px;
-    display: inline;
-    }
    
-
-
 
   .main-info{
     list-style-type: none;
+    
+    
   }
+
+   
+  .studio-logo{
+    color:#2e2f42;
    
 
 
-  .studio-logo{
-    color:#2e2f42;
   }
 
   .accent{
@@ -52,7 +72,9 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color:#4d5ae5;
-    height: 21;
+    padding-top: 36px;
+     padding-left: 156px;
+
 
   }
 
@@ -67,6 +89,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
+   
   }
 
   .text-header:hover{
@@ -79,17 +102,16 @@ body {
 
   .address{
     font-style: normal;
-    padding-left: 800px;
    
-    
+   
   } 
 
 
 .ma-tel{
   text-decoration: none;
   color: #434455;
- 
-  
+
+
 }
 
 
@@ -108,8 +130,12 @@ body {
     list-style-type: none;
     letter-spacing: 0.02em;
      color:#434455;
-     display:flex;
-     gap: 24px;
+     display: flex;
+     padding-left: 200px;
+     padding-top: 24px;
+     gap: 40px;
+     
+     
   }
 
   .add-contacts:hover{
@@ -223,24 +249,24 @@ body {
 .apps{
 color:#2e2f42;
 list-style-type: none;
-top: 332px;
-gap: 8px;
-margin: auto;
-padding-top:60px;
+
+
 }
 
   .our-team{
     display: flex;
-    gap: 50px;
+    gap: 32px;
     border: 1px;
     padding-top:60px;
+    padding-left: 156px;
+    border-bottom: 1px;
     
   }
 
 .team-card{
   list-style-type:none;
   background-color:#FFFFFF;
- text-align: center;
+  text-align: center;
   
 }
 
@@ -264,8 +290,6 @@ padding-top:60px;
 
 
 .portfolio{
-  display: flex;
-  flex-wrap:wrap;
   gap: 50px;
   border: 1px;
 }
