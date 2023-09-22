@@ -176,6 +176,12 @@ body {
   font-weight: 500;
   font-size:16px;
   background-color: #4d5ae5;
+  min-width:169px;
+  height:56px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+  display:block;
   
  }
 
@@ -188,12 +194,7 @@ body {
  }
 
  .button-click{
-  min-width:169px;
-  height:56px;
-  border:none;
-  border-radius:4px;
-  cursor:pointer;
-  display:block;
+  
  }
 
 
