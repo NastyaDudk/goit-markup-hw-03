@@ -16,8 +16,7 @@ body {
     /* Header */
 
 .header-header{
-  border-bottom:1px;
-  solid: #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
     .header-container{
@@ -28,9 +27,9 @@ body {
 
 
   .header-link{
-    display: flex;
+    display:flex;
     color:#4d5ae5;
-    align-items: center; 
+    align-items:center; 
   }
 
   .menu-nav{
@@ -38,8 +37,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     color:#2E2F42;
-    padding-left: 347px;
-    padding-top: 24px;
+    padding-left:347px;
+    padding-top:24px;
     gap:40px;
     display:flex;
     
@@ -67,7 +66,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color:#4d5ae5;
-    margin-right: 76px ;
+    margin-right:76px ;
     display: flex;
     align-items: center;
 
@@ -174,15 +173,10 @@ body {
   line-height:1.5;
   letter-spacing:0.04em;
   color: #ffffff;
-  cursor: pointer;
   font-weight: 500;
-  font-size: 16px;
-  display:block;
+  font-size:16px;
   background-color: #4d5ae5;
-  min-width: 169px;
-  height:56px;
-  border:none;
-  border-radius:4px;
+  
  }
 
  .hero-button:hover{
@@ -194,12 +188,12 @@ body {
  }
 
  .button-click{
-  top: 428px;
-  padding-left: 636px;
-  padding: 16px, 32px, 16px, 32px;
-  border-radius: 4px;
-  gap: 10px;
-
+  min-width:169px;
+  height:56px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+  display:block;
  }
 
 
@@ -210,7 +204,7 @@ body {
 }
 
 
-.hidden{
+.visually-hidden{
   visibility: hidden;
 }
 
@@ -277,7 +271,9 @@ width:calc((100% - 48px) / 3);
   border-top:none; 
 }
 
-
+img {
+	display: block;
+}
 
   .our-team{
     display: flex;
@@ -290,14 +286,14 @@ width:calc((100% - 48px) / 3);
   }
 
 .team-card{
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px; 
   list-style-type:none;
   background-color:#FFFFFF;
  
 }
 
 .about-person{
-  width: calc((100% - 72px) / 4); 
-  border-radius: 0px 0px 4px 4px; 
   padding: 32px 0;
 }
 
