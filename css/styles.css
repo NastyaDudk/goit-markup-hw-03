@@ -16,14 +16,14 @@ body {
     /* Header */
 
 .header-header{
-  border-bottom: 1px;
+  border-bottom:1px;
   solid: #e7e9fc;
-
 }
 
     .header-container{
       height: 72px;
       border: 1px;
+      display: flex; 
     }
 
 
@@ -40,15 +40,11 @@ body {
     color:#2E2F42;
     padding-left: 347px;
     padding-top: 24px;
-    gap: 40px;
-    display: flex;
+    gap:40px;
+    display:flex;
     
   }
    
-
-  .img{
-    display: block;
-  }
 
   .main-info{
     list-style-type: none;
@@ -89,8 +85,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
-   
-    padding: 24px 0 ;
+    padding: 24px 0 24px;
    
   }
 
@@ -132,9 +127,9 @@ body {
     list-style-type: none;
     letter-spacing: 0.02em;
      color:#434455;
-     display: flex;
-     gap: 40px;
-     padding-left: 940px;
+     display:flex;
+     gap:40px;
+    
      
      
   }
@@ -156,9 +151,7 @@ body {
     width: 1440px;
     height: 600px;
     top: 72px;
-   
   
-
 
  }
 
@@ -170,8 +163,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color:#ffffff;
-  max-width: 496px; 
-  padding-left: 472px;
+  max-width:496px; 
+  padding-left:472px;
 
 
 }
@@ -179,17 +172,17 @@ body {
  .hero-button{
   font-family:"Roboto",sans-serif;
   line-height:1.5;
-  letter-spacing: 0.04em;
+  letter-spacing:0.04em;
   color: #ffffff;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  display: block;
+  display:block;
   background-color: #4d5ae5;
   min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
+  height:56px;
+  border:none;
+  border-radius:4px;
  }
 
  .hero-button:hover{
@@ -217,6 +210,10 @@ body {
 }
 
 
+.hidden{
+  visibility: hidden;
+}
+
 
 /* Main Section 3 */
 
@@ -226,7 +223,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:#2e2f42;
-  margin-bottom: 8px; 
+  margin-bottom:8px; 
 }
 
 .section-title{
@@ -242,6 +239,7 @@ body {
 .all-info{
   list-style-type: none;
   width: calc((100% - 72px) / 4); 
+  
 }
 
 .benefit-text{
@@ -253,7 +251,8 @@ body {
 
 .work-list{
   display:flex;
-  gap: 24px;
+  gap:24px;
+  
 }
 
 /* Main Section 3 */
@@ -267,17 +266,16 @@ body {
 .apps{
 color:#2e2f42;
 list-style-type: none;
-width: calc((100% - 48px) / 3); 
+width:calc((100% - 48px) / 3); 
 }
 
 
-.apps-container{
-  padding: 32px 16px;
+.name-app{
+  padding: 32px,16px;
   border: 1px;
   solid: #e7e9fc; 
-  border-top: none; 
+  border-top:none; 
 }
-
 
 
 
@@ -294,13 +292,12 @@ width: calc((100% - 48px) / 3);
 .team-card{
   list-style-type:none;
   background-color:#FFFFFF;
-  text-align: center;
-  width: calc((100% - 72px) / 4); 
-  border-radius: 0px 0px 4px 4px; 
-  
+ 
 }
 
 .about-person{
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px; 
   padding: 32px 0;
 }
 
@@ -310,7 +307,7 @@ width: calc((100% - 48px) / 3);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:#2e2f42;
-  text-align: center; 
+  text-align:center; 
   margin-bottom: 8px;
 }
 
@@ -319,7 +316,7 @@ width: calc((100% - 48px) / 3);
   letter-spacing: 0.02em;
   color:#434455;
   font-size: 16px;
-  text-align: center;
+  text-align:center;
 }
 
 /* Main Section 4 */
