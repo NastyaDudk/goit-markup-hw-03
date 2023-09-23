@@ -273,7 +273,7 @@ body {
 .apps{
 color:#2e2f42;
 width: calc((100% - 48px) / 3);
-list-style-type: none;
+
 }
 
 
@@ -341,7 +341,7 @@ img {
   flex-wrap: wrap; 
   column-gap: 24px;
   row-gap: 48px;
- 
+  list-style-type: none;
   
 }
 
