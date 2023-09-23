@@ -102,7 +102,7 @@ body {
 
   .address{
     font-style: normal;
-    padding-left: 260px;
+    padding-left: 250px;
 
   } 
 
@@ -341,8 +341,8 @@ img {
 }
 
 .apps-apps{
-  color:#2e2f42;
   width: calc((100% - 48px) / 3);
+  color:#2e2f42;
 }
 
 
