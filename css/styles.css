@@ -271,8 +271,8 @@ body {
 
 
 .apps-apps{
+width:calc((100% - 48px) / 3);
 color:#2e2f42;
-width: calc((100% - 48px) / 3);
 }
 
 
