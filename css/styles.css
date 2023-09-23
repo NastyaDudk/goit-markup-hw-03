@@ -203,6 +203,7 @@ body {
 /* Main Section 2 */
 
 .second-section{
+  width: 100%;
   padding: 120px 0;
 }
 
@@ -264,6 +265,7 @@ body {
 /* Main Section 3 */
 
 .team-section{
+  width: 100%;
   background-color:#F4F4FD;
   padding: 120px 0 ;
 
