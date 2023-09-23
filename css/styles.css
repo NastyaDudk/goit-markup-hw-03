@@ -10,7 +10,7 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    
+   
   }
 
 
@@ -271,8 +271,8 @@ body {
 
 
 .apps-apps{
-width:calc((100% - 48px) / 3);
-color:#2e2f42;
+  width: calc((100% - 48px) / 3);
+  color:#2e2f42;
 }
 
 
@@ -333,6 +333,7 @@ img {
 .portfolio-section{
   padding-top: 120px; 
   padding-bottom: 120px; 
+  
 }
 
 .portfolio{
