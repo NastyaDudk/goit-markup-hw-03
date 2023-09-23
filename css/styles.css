@@ -102,6 +102,7 @@ body {
 
   .address{
     font-style: normal;
+    padding-left: 940px;
 
   } 
 
@@ -109,8 +110,8 @@ body {
 .ma-tel{
   text-decoration: none;
   color: #434455;
-  
-    
+
+ 
 }
 
 
@@ -185,6 +186,7 @@ body {
   border-radius:4px;
   cursor:pointer;
   margin: 0 auto;
+  
  }
 
  .hero-button:hover{
@@ -269,7 +271,7 @@ body {
 .apps{
 color:#2e2f42;
 list-style-type: none;
-width:calc((100% - 48px) / 3);
+width: calc((100% - 48px) / 3);
 
 }
 
@@ -290,9 +292,9 @@ img {
     gap: 24px;
     border: 1px;
     padding-top:60px;
-    padding-left: 156px;
+    left: 156px;
     border-bottom: 1px;
-    
+  
   }
 
 .team-card{
