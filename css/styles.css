@@ -40,7 +40,6 @@ body {
     font-size: 16px;
     color:#2E2F42;
     left:347px;
-    padding-top: 24px;
     gap:40px;
     display:flex;
     
@@ -73,8 +72,6 @@ body {
     margin-right:76px ;
     display: flex;
     align-items: center;
-    padding-top: 24px;
-
 
   }
 
@@ -103,8 +100,8 @@ body {
 
   .address{
     font-style: normal;
-    padding-left: 250px;
-
+    padding-left: 240px;
+    padding-top: 10px;
   } 
 
 
@@ -133,9 +130,7 @@ body {
      color:#434455;
      display: flex;
      gap: 40px;
-     padding-top: 24px;
-     
-     
+      
   }
 
   .add-contacts:hover{
