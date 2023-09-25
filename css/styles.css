@@ -163,7 +163,6 @@ body {
   color:#ffffff;
   max-width:496px; 
   left:472px;
-  width: 100%;
   margin: 0 auto;
  
 }
@@ -227,7 +226,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:#2e2f42;
-  margin-bottom:8px; 
+  margin: 0 auto;
 }
 
 .section-title{
@@ -237,7 +236,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:#2e2f42;
-  margin-bottom: 72px;
+  margin: 0 auto;
 }
 
 .all-info{
@@ -354,7 +353,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:#2e2f42;
-  margin-bottom: 8px;
+  margin: 0 auto;
  
 }
 
@@ -386,7 +385,7 @@ img {
     text-decoration: none;
     color:#4d5ae5; 
     display: inline-block;
-    margin-bottom: 16px;
+    margin: 0 auto;
 }
 
 .footer-text{
