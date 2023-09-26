@@ -3,9 +3,22 @@ body {
     font-size: 16px;
     color:#434455;
     background-color:#FFFFFF;
-   
-   
-  
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p{
+    margin: 0;
+  }
+
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
 
   .container{
@@ -24,14 +37,13 @@ body {
 
     .header-container{
       height: 72px;
-      border: 1px;
       display: flex; 
+      align-items: center;
     }
 
 
   .header-link{
     display:flex;
-    color:#4d5ae5;
     align-items:center; 
   }
 
@@ -40,9 +52,11 @@ body {
     font-weight: 500;
     font-size: 16px;
     color:#2E2F42;
-    left:347px;
     gap:40px;
     display:flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
     
   }
    
@@ -101,8 +115,7 @@ body {
 
   .address{
     font-style: normal;
-    padding-left: 240px;
-    padding-top: 10px;
+    margin-left: auto;
   } 
 
 
@@ -147,9 +160,11 @@ body {
 
  .hero-section{
     background-color:#2e2f42 ;
-    padding: 188px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
     height: 600px;
     top: 72px;
+
   
  }
 
@@ -162,6 +177,7 @@ body {
   color:#ffffff;
   max-width:496px; 
   margin: 0 auto;
+  margin-bottom: 48px;
   
 }
 
@@ -223,7 +239,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:#2e2f42;
-  margin-bottom:8px; 
+  margin: 20px 0px 8px;
 }
 
 .section-title{
@@ -233,7 +249,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:#2e2f42;
-  margin-bottom: 72px;
+  margin: 29.88px 0px 72px;
 }
 
 .all-info{
@@ -246,6 +262,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:#434455;
+  margin: 16px 0px ;
 }
 
 
@@ -254,7 +271,8 @@ body {
   display:flex;
   gap:24px;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
+    
 }
 
 /* Main Section 3 */
@@ -275,19 +293,17 @@ body {
   
 }
 
-img {
-	display: block;
-}
 
   .our-team{
-   
     display: flex;
     gap: 24px;
     border: 1px;
     left: 156px;
     border-bottom: 1px;
     margin: 0;
-    padding: 0;
+    list-style: none;
+    padding-left: 0;
+    
     
   
   }
@@ -311,7 +327,7 @@ img {
   letter-spacing: 0.02em;
   color:#2e2f42;
   text-align:center; 
-  margin-bottom: 8px;
+  margin: 20px 0px 8px;
 }
 
 .person-job{
@@ -326,7 +342,6 @@ img {
 
 
 .portfolio-section{
-  
   padding-top: 120px; 
   padding-bottom: 120px; 
   
@@ -339,7 +354,8 @@ img {
   row-gap: 48px;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
+  
 
   
 }
@@ -373,8 +389,7 @@ img {
 .footer{
   padding: 100px 0 ;
   background-color:#2e2f42;
-  height: 312px;
-  top: 2988px;
+  
  
 }
 
@@ -393,9 +408,6 @@ img {
 
 .footer-text{
   width: 264px;
-  height: 72px;
-  top: 3088px;
-  left: 156px;
   line-height: 1.5;
   color:#F4F4FD;
   letter-spacing: 0.02em;
