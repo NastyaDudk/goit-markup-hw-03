@@ -71,8 +71,6 @@ body {
   .studio-logo{
     color:#2e2f42;
    
-
-
   }
 
   .accent{
@@ -144,6 +142,7 @@ body {
      color:#434455;
      display: flex;
      gap: 40px;
+     
       
   }
 
@@ -240,7 +239,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:#2e2f42;
-  margin: 20px 0px 8px;
+  margin-bottom: 8px;
 }
 
 .section-title{
@@ -250,7 +249,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:#2e2f42;
-  margin: 29.88px 0px 72px;
+  margin-bottom: 72px;
 }
 
 .all-info{
@@ -263,7 +262,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:#434455;
-  margin: 16px 0px ;
 }
 
 
@@ -328,7 +326,7 @@ body {
   letter-spacing: 0.02em;
   color:#2e2f42;
   text-align:center; 
-  margin: 20px 0px 8px;
+  margin-bottom: 8px;
 }
 
 .person-job{
